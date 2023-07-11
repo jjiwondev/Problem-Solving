@@ -1,6 +1,4 @@
-n = int(input())
-n = n//4
 str=""
-for _ in range(n):
+for _ in range(int(input())//4):
     str += "long "
 print(str + "int")
