@@ -1,9 +1,6 @@
-max = -1
-index = -1
-for idx in range(9):
-    num = int(input())
-    if(num > max):
-        index = idx+1
-        max = num
-print(max)
-print(index)
+numbers = []
+
+for _ in range(9):
+    numbers.append(int(input()))
+print(max(numbers))
+print(numbers.index(max(numbers))+1)
